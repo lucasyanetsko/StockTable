@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+#stockTable {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #333; /* Enhanced table border */
+}
+
+#stockTable, #stockTable th, #stockTable td {
+  border: 1px solid #ddd;
+}
+
+#stockTable th, #stockTable td {
+  text-align: left;
+  padding: 8px;
+}
+
+#stockTable th {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Alternating row background colors */
+#stockTable tr:nth-child(odd) {
+  background-color: #001f3f;
+  color: white;
+}
+
+#stockTable tr:nth-child(even) {
+  background-color: #e2e2e2;
+}
+
+.price {
+  color: green;
+}
+
+.high-price {
+  color: red;
+}
